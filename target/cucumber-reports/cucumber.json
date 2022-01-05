@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-05T21:31:53.665Z",
+        "line": 12,
+        "name": "Checking Covid 19 Service Updates",
+        "description": "",
+        "id": "as-a-customer-i-need-to-be-able-to-see-the-covid-9-restrictions;checking-covid-19-service-updates;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57596038800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "That  I am viewing the DIY webpage",
+            "match": {
+              "location": "stepDef.UpdatesCovid19.that_I_am_viewing_the_DIY_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2717907600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press the \u0027Covid-19 Service Updates\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Covid-19 Service Updates\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.UpdatesCovid19.i_press_the_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5956115800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \u0027Covid-19:Customer Notice\u0027 page will be displayed same as B2B but with B2C theme",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Covid-19:Customer Notice\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDef.UpdatesCovid19.the_page_will_be_displayed_same_as_B2B_but_with_B2C_theme(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a customer,I need to be able to see the covid 9 restrictions",
+    "description": "         so  I know whether I am still OK to place an order or not",
+    "id": "as-a-customer-i-need-to-be-able-to-see-the-covid-9-restrictions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/covidupdates.feature",
+    "tags": []
+  }
+]
